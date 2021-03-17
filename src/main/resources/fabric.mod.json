@@ -10,20 +10,19 @@
   ],
   "contact": {
     "homepage": "",
-    "sources": ""
+    "sources": "https://github.com/philipxjm/WonderXP"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/wonderxp/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.wonderphil.wonderxp.WonderXP"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
